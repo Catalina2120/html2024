@@ -1,0 +1,34 @@
+p{
+    color: purple;
+}
+#primulp{
+    color: pink;
+}
+#aldoileap{
+    color: green;
+}
+.pchoco{
+    color: aqua;
+
+}
+#p3{
+    color: blue;
+}
+.p4{
+    color: brown;
+}
+
+div{
+    width: 100%;
+    max-width: 400px;
+    height: 500px;
+
+    margin: 30;
+    border: 5px #000 solid;
+    padding: 10px 20px 15px 5px;
+
+    float: left;
+    text-align: center;
+    background-color: bisque;
+    color: blueviolet;
+}
