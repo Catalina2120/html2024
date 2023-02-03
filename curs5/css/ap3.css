@@ -1,0 +1,40 @@
+div{
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+}
+div img{
+    width:100%;
+    max-width:300px;
+    
+}
+@media  ( max-width:576px ) {
+/* mobil */
+.laptop, .tableta{
+    display: none;
+}
+.mobil{
+    background-image: url(../images/imagine\ iphone.jpg);
+    background-size: cover;
+}
+}
+@media ( min-width:578px ) and ( max-width:768 ) {
+    /* tableta */
+    .laptop, .tableta{
+        display: none;
+    }
+    .tableta{
+        background-image: url( ../images/imagine\ tableta.jpg );
+        background-size: cover;
+    }
+}
+@media ( min-width:769px ) {
+    /* laptop */
+    .laptop, .tableta{
+        display: none;
+    }
+    .laptop{
+        background-image: url( ../images/imagine\ desktop.jpg );
+        background-size: cover;
+    }
+}

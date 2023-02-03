@@ -1,0 +1,17 @@
+div{
+    height: 300px;
+    width: 300px;
+    border: 2px solid red;
+    margin: 15px;
+    float: left;
+    overflow: hidden;
+    border-radius: 15px;
+    outline-style: solid;
+    outline-color: rebeccapurple;
+    outline-width: 15px;
+}
+
+#div2{
+    /* display: none; */
+    
+}

@@ -13,6 +13,7 @@
     <link rel="icon" type="img/jpg" sizes="16x16" href="./assets/img/8.jpg">
     <link rel='icon' type='img/png' href='./assets/img/5.png'>
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/demo.css">
   </head>
 <body>
     <div id="header">
@@ -26,8 +27,8 @@
         <nav id="menubar">
             <ul id="menu">
                 <li><a href="acasa.html">Acasa</a></li>
-                <li><a href="">Despre noi</a></li>
-                <li class="selected"><a href="portofoliu.html">Portofoliu</a></li>
+                <li class="selected"><a href="">Despre noi</a></li>
+                <li><a href="portofoliu.html">Portofoliu</a></li>
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="">Contact</a></li>
             </ul>
@@ -36,7 +37,100 @@
 
     
         <div id="main">
-            aici va fi afisat portofoliu 
+          <li><a href="acasa.html">Acasa</a></li>
+          <li><a href="despre.html">Despre noi</a></li>
+          <li class="selected"><a href="portofoliu.html">Portofoliu</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div id="main">
+      <h2>Tabele</h2>
+      <p>Tabelele le vom folosi pentru a afisa informatia nu pentru a face structura unei pagini:</p>
+      <h3>Tabel 1</h3>
+      <table id="tb_1">
+        <tr>
+          <th>Item</th>
+          <th>Descriere</th>
+        </tr>
+        <tr>
+          <td>Item 1</td>
+          <td>Descriere Item 1</td>
+        </tr>
+        <tr>
+          <td>Item 2</td>
+          <td>Descriere Item 2</td>
+        </tr>
+        <tr>
+          <td>Item 3</td>
+          <td>Descriere Item 3</td>
+        </tr>
+        <tr>
+          <td>Item 4</td>
+          <td>Descriere Item 4</td>
+        </tr>
+      </table>
+      <h3>Tabel 2</h3>
+      <table id="tbl_2">
+        <thead>
+          <tr>
+            <th>Nume</th>
+            <th>Email</th>
+            <th>Telefon fix</th>
+            <th>Telefon mobil</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="user-name">Popescu Marian</td>
+            <td class="user-email">pop.marian@yahoo.com</td>
+            <td class="user-phone">12345</td>
+            <td class="user-mobile">0755092697</td>
+          </tr>
+          <tr>
+            <td class="user-name">Dumitru Radu</td>
+            <td class="user-email">dumitruradu@yahoo.com</td>
+            <td class="user-phone">12345</td>
+            <td class="user-mobile">0765998205</td>
+          </tr>
+          <tr>
+            <td class="user-name">Traian Alexandru</td>
+            <td class="user-email">alex.traian@yahoo.com</td>
+            <td class="user-phone">12345</td>
+            <td class="user-mobile">0759026912</td>
+          </tr>
+          <tr>
+            <td class="user-name">Iftode Vlad</td>
+            <td class="user-email">iftodevlad@yahoo.com</td>
+            <td class="user-phone">12345</td>
+            <td class="user-mobile">0745872194</td>
+          </tr>
+        </tbody>
+      </table>
+      <h1>Alte exemple</h1>
+      <div class="row">
+        <div class="col-4">
+          <div id="heart"></div>
+        </div>
+        <div class="col-4">
+          <div class="oval"></div>
+        </div>
+        <div class="col-4">
+          <div id="infinity"></div>
+        </div>
+        <div class="col-4">
+          <div class="christmas"></div>
+        </div>
+        <div class="col-4">
+          <div class="sub-main">
+            <button class="button-three">Click Me</button>
+          </div>
+        </div>
+        <div class="col-4"><button class="btn-demo fifth">Button 5</button></div>
+  
+      </div>
+    </div>
         </div>
         <footer id="footer">
             <p><a href="acasa.html">Home</a> | <a href="contact.html">Contact</a></p>
